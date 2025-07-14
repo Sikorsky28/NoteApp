@@ -26,7 +26,7 @@ public class NoteService {
   /**
    * Возвращает заметку по id.
    *
-   * @param id ID заметки
+   * @param id ID заметк
    */
   public Optional<Note> getNoteById(int id) {
     return Optional.ofNullable(notes.get(id));
