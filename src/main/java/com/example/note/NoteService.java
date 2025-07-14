@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Класс представляет методы для управлением заметками.
+ * Класс представляет методы для управлением заметкой.
  */
 public class NoteService {
   private final Map<Integer, Note> notes = new HashMap<>();
@@ -26,7 +26,7 @@ public class NoteService {
   /**
    * Возвращает заметку по id.
    *
-   * @param id ID заметки
+   * @param id ID заметк
    */
   public Optional<Note> getNoteById(int id) {
     return Optional.ofNullable(notes.get(id));
