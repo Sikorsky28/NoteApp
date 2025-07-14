@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Класс представляет методы для управлением заметками.
+ * Класс представляет методы для управлением заметкой.
  */
 public class NoteService {
   private final Map<Integer, Note> notes = new HashMap<>();
