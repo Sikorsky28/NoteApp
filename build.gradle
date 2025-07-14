@@ -46,7 +46,7 @@ checkstyle {
     configFile = file("config/checkstyle/google_checks.xml")
 }
 
-tasks.withType(Checkstyle) {
+tasks.withType(Checkstyle).configureEach {
     // Говорим Checkstyle использовать файл конфигурации из нашего проекта
     configFile = rootProject.file('config/checkstyle/google_checks.xml')
 
